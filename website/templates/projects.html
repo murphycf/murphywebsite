@@ -1,0 +1,104 @@
+
+{% extends 'base.html' %}
+{%load static %}
+{% block content %}
+
+    <section class="projects-section bg-light" id="projects">
+        <div class="container px-4 px-lg-5">
+            <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h1 class="text-black">Projects</h4>
+            </div>
+            <!-- Project One Row-->
+            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                <div class="col-lg-6"><img class="img-fluid" src="{% static 'assets/img/demo-image-01.jpg' %}" alt="..." /></div>
+                <div class="col-lg-6">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white">Selenium</h4>
+                                <p class="mb-0 text-white-50">Slenium is a great tool  to web scrap and automate many routine tasks. I integrate this is my day to day tasks. See more <a href={%url 'uhoh'%}>here</a></p>
+                                <hr class="d-none d-lg-block mb-0 ms-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project Two Row-->
+            <div class="row gx-0 justify-content-center">
+                <div class="col-lg-6"><img class="img-fluid" src="{% static 'assets/img/demo-image-02.jpg' %} " alt="..." /></div>
+                <div class="col-lg-6 order-lg-first">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white">Django</h4>
+                                <p class="mb-0 text-white-50">Django is another tool I use to build web applicatiosn along with Node. Learn more about <a href={%url 'uhoh'%}>here</a></p>
+                                <hr class="d-none d-lg-block mb-0 me-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- Project Three Row-->
+            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                <div class="col-lg-6"><img class="img-fluid" src="{% static 'assets/img/demo-image-01.jpg' %}" alt="..." /></div>
+                <div class="col-lg-6">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white">Tetris</h4>
+                                <p class="mb-0 text-white-50">Slenium is a great tool  to web scrap and automate many routine tasks. I integrate this is my day to day tasks. See more <a href={%url 'uhoh'%}>here</a>. Check out my github for some examples.</p>
+                                <hr class="d-none d-lg-block mb-0 ms-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project Four Row-->
+            <div class="row gx-0 justify-content-center">
+                <div class="col-lg-6"><img class="img-fluid" src="{% static 'assets\img\leetcode02.png' %} " alt="..." /></div>
+                <div class="col-lg-6 order-lg-first">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white">Data Structures (This is for me)</h4>
+                                <p class="mb-0 text-white-50">I practice some leetcode. Can look at solutions I have. Though this may be more for my benefit than yours. <a href={%url 'uhoh'%}>here</a></p>
+                                <hr class="d-none d-lg-block mb-0 me-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project Five Row-->
+            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                <div class="col-lg-6"><img class="img-fluid" src="{% static 'assets/img/demo-image-01.jpg' %}" alt="..." /></div>
+                <div class="col-lg-6">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white">Making an Online Shop</h4>
+                                <p class="mb-0 text-white-50">Making an Online shop for some of your cycling and clothing needs.<a href={%url 'uhoh'%}>Click here</a></p>
+                                <hr class="d-none d-lg-block mb-0 ms-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- Project Six Row-->
+            <div class="row gx-0 justify-content-center">
+                <div class="col-lg-6"><img class="img-fluid" src="{% static 'assets\img\ivanbasso02.jpg' %} " alt="..." /></div>
+                <div class="col-lg-6 order-lg-first">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white">Find A bike</h4>
+                                <p class="mb-0 text-white-50">If you need a bike. This is a webscrapping tool that will ask you some questions and find a bike on pinkbike for you. <a href={%url 'uhoh'%}>here</a></p>
+                                <hr class="d-none d-lg-block mb-0 me-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}
+
